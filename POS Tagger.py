@@ -41,6 +41,8 @@ for key in sheet_to_df_map.keys():
   except KeyError:
     pass
 
+import xlsxwriter
+import os
 filepath = '/Users/lidiiamelnyk/Documents/pos_tagged_non_binary.xlsx'
 def save_excel_sheet(df, filepath, sheetname, index=False):
     # Create file if it does not exist
