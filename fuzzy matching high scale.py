@@ -92,3 +92,4 @@ t1 = time.time()
 matches = cossim_top(tf_idf_matrix, tf_idf_matrix.transpose(), 10, 0.85)
 t = time.time()-t1
 print("SELFTIMED:", t)
+
